@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #d3e8e7;
+    width: 50%;
+    margin: auto;
+}
+
+.left, .right{
+    position: fixed;
+    width: 24.5%;
+    height: 100%;
+    top: 0;
+}
+
+.right{
+    background-color:#AAD4CE;
+    right: 0
+}
+
+.left{
+    background-color:#AAD4CE ;
+    left: 0
+}
+
+.container{
+    background-color: #d3e8e7;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav li + li::before {
+    content: " | ";
+    margin: 0 75px; 
+    color: black; 
+  }
+  
+header{
+    background-image: url("../images/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 50px;
+    text-align: center;
+    color: white;
+    background-color: #d3e8e7;
+}
+
+img{
+    max-height: 25%;
+    max-width: 25%;
+    float: left;
+   margin-right: 20px;
+   margin-bottom: 10px;
+}
+
+form{
+    border-style: solid;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+input[type=submit]{
+    background-color: #d3e8e7;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+    
+footer{
+    text-align: right;
+    padding: 10px;
+}
+    
+    
